@@ -1,0 +1,29 @@
+{
+  "name": "unhash-upload",
+  "version": "0.0.0",
+  "description": "Upload files to the Unhash Network Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justmoon/unhash-upload.git"
+  },
+  "keywords": [
+    "unhash",
+    "file-sharing",
+    "upload",
+    "share",
+    "post",
+    "host",
+    "push",
+    "p2p"
+  ],
+  "author": "Stefan Thomas <justmoon@members.fsf.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/justmoon/unhash-upload/issues"
+  },
+  "homepage": "https://github.com/justmoon/unhash-upload#readme"
+}
