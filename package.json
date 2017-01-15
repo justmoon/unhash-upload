@@ -1,6 +1,6 @@
 {
   "name": "unhash-upload",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Upload files to the Unhash Network Edit",
   "main": "index.js",
   "scripts": {
