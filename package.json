@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/justmoon/unhash-upload/issues"
   },
-  "homepage": "https://github.com/justmoon/unhash-upload#readme"
+  "homepage": "https://github.com/justmoon/unhash-upload#readme",
+  "dependencies": {
+    "mz": "^2.6.0",
+    "node-fetch": "^1.6.3"
+  }
 }
