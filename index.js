@@ -4,8 +4,8 @@ const fs = require('mz/fs')
 const fetch = require('node-fetch')
 
 const HOSTS = [
-  // 'unhash.link',
-  'unhash.s3.amazonaws.com'
+  // 'https://unhash.link',
+  'https://unhash.s3.amazonaws.com'
 ]
 
 const uploadFromBuffer = (buffer, opts) => {
@@ -41,7 +41,7 @@ const uploadFromFile = (filename, opts) => {
 }
 
 const getUploadUri = host => {
-  return fetch(`https://${host}/.well-known/unhash.json`)
+  return fetch(`${host}/.well-known/unhash.json`)
     .then(res => res.json())
     .then(json => {
       return json.upload
